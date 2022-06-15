@@ -1,0 +1,117 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: poppins;
+}
+*{
+	
+	scroll-behavior: smooth;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 1;
+	background-color: #FFFFFF;
+}
+.logo img{
+	height:45px;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
+}
+nav ul li a:hover{
+	background-color: #39da2aab;
+    border-radius: 20px;
+	color:#FFFFFF;
+	box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+	transition: all ease 0.2s;
+}
+#recent{
+	margin-top: 149px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:0px 0px;
+	flex-direction: column;
+	background-image:url("../images/bg5.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.recent-heading h1,
+.client-heading span{
+	color:#06706e;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 3.1rem;
+	margin: 70px;
+	padding: 0px;
+	margin-left:40%;
+}
+.recent-heading h3,
+.client-heading h3,
+#contact h3{
+	color:#010e18;
+	font-size: 3rem;
+	margin:40px;
+    margin-right: 190px;
+        margin-left: 180px;
+        margin-top: 0px;
+	padding:0px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.recent-img{
+	margin:0px 0x;
+
+}
+.recent-img img{
+	width: 350px;
+	height: 300px;
+	float:left;
+    margin-left: 0%;
+    margin-right: 70%;
+}
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(25, 196, 196, 0.4); 
+    color:black;
+    font-weight: bold;
+    border: 5px solid #941111;
+    position:absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width:45%;
+    height: 20%;
+    padding:50px;
+    text-align:left;
+    bottom: 5px;
+    margin-top: 8%;
+
+  }
